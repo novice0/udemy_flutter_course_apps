@@ -1,0 +1,1 @@
+ /Users/admin/Documents/Programming/Udemy-Flutter-Course/expense_tracker/.dart_tool/flutter_build/f57ec0ef258ea2cc2050aa0b8fc7f070/native_assets.yaml: 

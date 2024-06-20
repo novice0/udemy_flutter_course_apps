@@ -1,5 +1,6 @@
 import 'package:expense_tracker/widgets/expenses.dart';
 import 'package:flutter/material.dart';
+//import 'package:flutter/services.dart'; Exposes some service level functionalities
 
 Color color1 = const Color.fromARGB(255, 255, 230, 3);
 Color color2 = const Color.fromARGB(255, 96, 59, 181);
@@ -16,6 +17,13 @@ var kDarkColorScheme = ColorScheme.fromSeed(
 );
 
 void main() {
+  //WidgetsFlutterBinding.ensureInitialized();
+  //SystemChrome.setPreferredOrientations(
+  //  [
+  //    DeviceOrientation.portraitUp, //Locking the orientation of the device
+  //  ],
+  //).then(
+  //  (fn) {
   runApp(
     MaterialApp(
       darkTheme: ThemeData.dark().copyWith(
@@ -64,4 +72,6 @@ void main() {
       home: const Expenses(),
     ),
   );
+  //  },
+  //);
 }
